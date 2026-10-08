@@ -38,7 +38,7 @@ header p {
   margin-top: 15px;
   padding: 12px 20px;
   border-radius: 6px;
-  background-color: #ffffff;
+  background-color: white;
   color: #1f3a5f;
   text-decoration: none;
   font-weight: bold;
@@ -149,11 +149,6 @@ section h2 {
   color: #1f3a5f;
 }
 
-/* Parcours */
-.timeline .card {
-  position: relative;
-}
-
 /* Projets */
 .projects {
   display: grid;
@@ -201,11 +196,6 @@ section h2 {
   font-style: italic;
 }
 
-/* Contact */
-.contact {
-  padding-bottom: 70px;
-}
-
 /* Pied de page */
 footer {
   padding: 22px;
@@ -214,7 +204,7 @@ footer {
   text-align: center;
 }
 
-/* Téléphone et petit écran */
+/* Version téléphone */
 @media screen and (max-width: 768px) {
   header {
     padding: 55px 15px;
